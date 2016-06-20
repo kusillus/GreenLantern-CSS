@@ -1,0 +1,52 @@
+/*
+	Simbolo de los Green Lantern corps en CSS
+	tw : @kusillus
+	github : https://github.com/kusillus;
+*/
+
+body{
+	background-color: #333;
+	font-family: 'Ubuntu', sans-serif;
+}
+.contenedor{
+	width: 17rem;
+	height: 17rem;
+	margin: 2rem auto;
+
+}
+.base, .logo{
+	background-color: #6BDC5F;
+	width: 15rem;
+	height: 15rem;
+	border-radius: 50%;
+	border: solid 1rem #32A030;
+}
+.logo{
+    width: 6rem;
+    height: 6rem;
+    border-width: 1.5rem;
+    position: relative;
+    top: 3rem;
+    left: 3rem;
+}
+.logo::before, .logo::after{
+    content: '';
+    border-color: #32A030 transparent transparent transparent;
+    border-width: 1.5rem;
+    border-style: solid;
+    position: absolute;
+    width: 8rem;
+    left: -2.5rem;
+    top: -2.6rem;
+}
+.logo::after{
+	top: 5.5rem;
+	border-color:  transparent transparent #32A030 transparent;
+}
+p{
+	text-align: center;
+	color: #FFF;
+}
+strong{
+	color: #32A030;
+}
